@@ -55,6 +55,8 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 ## OpenRouter $0 models today (live pull)
 
+<!-- OPENROUTER_FREE_START -->
+
 Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0`.
 
 | Model ID | Name | Context |
@@ -80,6 +82,8 @@ Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0`
 | `thinkingmachines/inkling:free` | Thinking Machines: Inkling (free) | 1M |
 | `thinkingmachines/inkling-small:free` | Thinking Machines: Inkling Small (free) | 1M |
 | `z-ai/glm-5.2:free` | Z.ai: GLM 5.2 (free) | 256K |
+
+<!-- OPENROUTER_FREE_END -->
 
 Best coding-oriented IDs in that list today: `poolside/laguna-s-2.1:free`, `cohere/north-mini-code:free`, `nvidia/nemotron-3-ultra-550b-a55b:free`, `nvidia/nemotron-3.5-lightning:free`, `z-ai/glm-5.2:free`.
 
