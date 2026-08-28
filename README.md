@@ -2,11 +2,11 @@
 
 Student-focused snapshot of providers that advertise **free** models for coding and agentic frameworks.
 
-**Honest headline (2026-08-27):** almost no hosted API is truly unlimited. Most “free unlimited” claims hide RPM/RPD caps, weekly quotas, or rotating model IDs. The only reliably unlimited path is **local inference** (Ollama, LM Studio, llama.cpp).
+**Honest headline (2026-08-28):** almost no hosted API is truly unlimited. Most “free unlimited” claims hide RPM/RPD caps, weekly quotas, or rotating model IDs. The only reliably unlimited path is **local inference** (Ollama, LM Studio, llama.cpp).
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
-- Live OpenRouter catalog pulled: **415** models
+- Live OpenRouter catalog pulled: **387** models
 - Priced at $0 input + $0 output today: **21** models
 
 ## Verdict for students
@@ -14,7 +14,7 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 | Claim | Reality |
 | --- | --- |
 | “Free unlimited API” | Rare. Hosted free tiers almost always cap requests/day or tokens/day. |
-| Best $0 coding APIs | Google AI Studio (Gemini Flash family), Groq, OpenRouter `:free`, GitHub Models, NVIDIA NIM trial, Z.ai Flash |
+| Best $0 coding APIs | Google AI Studio (Gemini Flash family), Groq, OpenRouter `:free`, NVIDIA NIM (~40 RPM), Z.ai Flash |
 | Best $0 coding *agents* | OpenCode Zen, Kilo Code, Google Antigravity (weekly quota), Codex CLI on free ChatGPT |
 | Truly unlimited | Local models on your machine |
 
@@ -22,28 +22,26 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 ### Hosted APIs (free, usually not unlimited)
 
-| Provider | What they say | Practical limit (as of 2026-08-27) | Card? | Coding / agents |
+| Provider | What they say | Practical limit (as of 2026-08-28) | Card? | Coding / agents |
 | --- | --- | --- | --- | --- |
-| [OpenRouter `:free`](https://openrouter.ai/collections/free-models) | Models with $0 pricing | **20 RPM / 50 RPD** account-wide; **1000 RPD** after a one-time $10 credit purchase | No | Yes — Nemotron 3 Ultra, Laguna S 2.1, North Mini Code, Gemma 4 |
-| [Google AI Studio / Gemini API](https://aistudio.google.com) | Free of charge on listed Flash/Pro models | Per-model RPM/RPD (often ~15–30 RPM, ~1,500 RPD). Free-tier prompts may be used to improve products | No | Strong for agents (1M context, tool use) |
-| [Groq](https://console.groq.com) | Free plan with published rate table | ~30 RPM; RPD varies by model (hundreds to ~14k on small models). Catalog churns — Llama chat IDs were dropped Aug 2026 | No | Fast; `gpt-oss`, `qwen3.6` |
-| [GitHub Models](https://github.com/marketplace/models) | Free inference with a GitHub account | Rate-limited by GitHub plan | No | Good for classwork |
-| [NVIDIA NIM](https://build.nvidia.com) | Free developer endpoints | Trial credits / RPM caps (~40 RPM on some lists) | Phone verify | Nemotron family is agent-oriented |
-| [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | Free daily neuron allotment | ~10k neurons/day | No | Light coding only |
-| [Z.ai / GLM](https://z.ai) | Flash models free | Rate-limited | No | GLM Flash is usable for code |
-| [SambaNova Cloud](https://cloud.sambanova.ai) | Free while no payment method linked | ~20 RPM / 20 RPD / 200k TPD per model in recent probes | No | gpt-oss, Gemma 4 |
-| [OVHcloud AI Endpoints](https://www.ovhcloud.com/en/public-cloud/ai-endpoints/) | Anonymous lane exists | ~2 RPM per IP per model (anonymous) | No | gpt-oss, Qwen Coder |
-| [Pollinations](https://pollinations.ai) | Often listed as unlimited / no-auth | Legacy anonymous text/image is **throttled** (~1 req/15s). Newer `gen.pollinations.ai` **requires a key** | No | Weak for multi-step agents |
-| [Mistral La Plateforme](https://console.mistral.ai) | Free mode / monthly allowance | Allowance, not unlimited | No | Codestral / Devstral when included |
+| [OpenRouter `:free`](https://openrouter.ai/collections/free-models) | Models with $0 pricing | **20 RPM / 50 RPD** account-wide; **1000 RPD** after a one-time $10 credit purchase | No | Yes — Nemotron 3 Ultra, Laguna S 2.1, North Mini Code, Gemma 4, GLM 5.2 |
+| [Google AI Studio / Gemini API](https://aistudio.google.com) | Free of charge on listed Flash models | Per-model RPM/RPD (Flash often ~10–15 RPM, hundreds RPD). Free-tier prompts may be used to improve products. Pro often paid-only | No | Strong for agents (1M context, tool use) |
+| [Groq](https://console.groq.com) | Free plan with published rate table | ~30 RPM; RPD often ~1,000 on chat models (higher on small). Catalog churns | No | Fast; gpt-oss, qwen3.x |
+| [GitHub Models](https://github.com/marketplace/models) | Free inference with a GitHub account | Rate-limited by plan (~10–15 RPM, 50–150 RPD). **New customers blocked since Jun 2026** | No | Existing accounts only |
+| [NVIDIA NIM](https://build.nvidia.com) | Free developer endpoints | ~40 RPM trial (no credits system); not for production | No (dev signup) | Nemotron family is agent-oriented |
+| [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | Free daily neuron allotment | **10,000 Neurons/day** (shared, resets 00:00 UTC) | No | Light coding only |
+| [Z.ai / GLM](https://z.ai) | Some Flash models free on API | GLM-4.7-Flash / 4.5-Flash free; flagship paid or Coding Plan quotas | No for Flash | GLM Flash usable for code |
+| [Pollinations](https://pollinations.ai) | Often listed as unlimited / no-auth | Legacy anonymous throttled (~1 req/15s); newer endpoints need key / pollen | No | Weak for multi-step agents |
+| [Mistral La Plateforme](https://console.mistral.ai) | Free mode / monthly allowance | Allowance, not unlimited | No | Codestral when included |
 
 ### Coding agents that include $0 models
 
 | Agent | $0 models named in recent probes | Limit |
 | --- | --- | --- |
 | [OpenCode](https://opencode.ai) | big-pickle, mimo-v2.5, hy3, nemotron-3-ultra, nemotron-3.5-lightning, muse-spark-1.2 | Zen free IDs rotate; BYOK also works |
-| [Kilo Code](https://kilo.ai) | nemotron-3-ultra/super, north-mini-code, step-3.7-flash, laguna-s/xs-2.1 | $0 hosted pool, rotating IDs |
-| [Google Antigravity](https://antigravity.google) | gemini-3.1-pro, gemini-3.5-flash, claude-opus-4.6, claude-sonnet-4.6, gpt-oss | $0 plan; “unlimited” tab/command language sits on a **weekly quota** |
-| [OpenAI Codex CLI](https://learn.chatgpt.com/docs/codex/cli) | gpt-5.6 on free ChatGPT | Shared 5-hour + weekly rate limits |
+| [Kilo Code](https://kilo.ai) | nemotron-3-ultra/super, north-mini-code, laguna-s/xs-2.1 | $0 hosted pool, rotating IDs |
+| [Google Antigravity](https://antigravity.google) | gemini + others on free plan | Weekly quota under “unlimited” language |
+| [OpenAI Codex CLI](https://learn.chatgpt.com/docs/codex/cli) | gpt on free ChatGPT | Shared 5-hour + weekly rate limits |
 
 ### Actually unlimited (local)
 
@@ -63,7 +61,6 @@ Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0`
 | --- | --- | --- |
 | `cohere/north-mini-code:free` | Cohere: North Mini Code (free) | 256K |
 | `dots-studio/dots-3-note-preview:free` | Dots Studio: Dots3-Note Preview (free) | 512K |
-| `openrouter/free` | Free Models Router | 200K |
 | `google/gemma-4-26b-a4b-it:free` | Google: Gemma 4 26B A4B (free) | 262K |
 | `google/gemma-4-31b-it:free` | Google: Gemma 4 31B (free) | 262K |
 | `google/lyria-3-clip-preview` | Google: Lyria 3 Clip Preview | 1M |
@@ -77,10 +74,11 @@ Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0`
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | NVIDIA: Nemotron 3 Ultra (free) | 1M |
 | `nvidia/nemotron-3.5-content-safety:free` | NVIDIA: Nemotron 3.5 Content Safety (free) | 128K |
 | `nvidia/nemotron-3.5-lightning:free` | NVIDIA: Nemotron 3.5 Lightning (free) | 1M |
+| `openrouter/free` | Free Models Router | 200K |
 | `poolside/laguna-s-2.1:free` | Poolside: Laguna S 2.1 (free) | 262K |
 | `poolside/laguna-xs-2.1:free` | Poolside: Laguna XS 2.1 (free) | 262K |
-| `thinkingmachines/inkling:free` | Thinking Machines: Inkling (free) | 1M |
 | `thinkingmachines/inkling-small:free` | Thinking Machines: Inkling Small (free) | 1M |
+| `thinkingmachines/inkling:free` | Thinking Machines: Inkling (free) | 1M |
 | `z-ai/glm-5.2:free` | Z.ai: GLM 5.2 (free) | 256K |
 
 <!-- OPENROUTER_FREE_END -->
@@ -107,11 +105,11 @@ Schedule: every day at 04:00 UTC (also runnable from the Actions tab).
 
 ## Student notes
 
-1. Prefer **official free tiers** (Gemini, Groq, GitHub Models) over unofficial “unlimited Claude/GPT” proxies. Those break, get keys revoked, and often violate provider ToS.
+1. Prefer **official free tiers** (Gemini, Groq, OpenRouter, NVIDIA NIM) over unofficial “unlimited Claude/GPT” proxies. Those break, get keys revoked, and often violate provider ToS.
 2. Free model IDs **rotate**. Hard-coding one ID will fail within weeks. Keep a fallback list.
 3. OpenRouter `:free` is one key for many models but is **request-capped**, not token-unlimited.
 4. For class projects that must not die mid-demo: run a local model, and use a hosted free tier as backup.
-5. Community trackers used as secondary sources: [awesome-free-ai-coding](https://github.com/mvalentsev/awesome-free-ai-coding), [ClawLabsAI/free-ai-models](https://github.com/ClawLabsAI/free-ai-models), [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis).
+5. Community trackers used as secondary sources: [awesome-free-ai-coding](https://github.com/mvalentsev/awesome-free-ai-coding), [ClawLabsAI/free-ai-models](https://github.com/ClawLabsAI/free-ai-models).
 
 ## License
 
