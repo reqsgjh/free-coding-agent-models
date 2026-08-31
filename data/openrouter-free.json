@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-08-31T04:07:31.745699+00:00",
+  "fetched_at": "2026-08-31T14:14:48.332933+00:00",
   "source": "https://openrouter.ai/api/v1/models",
   "total_models": 396,
-  "free_models": 21,
+  "free_models": 26,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -17,15 +17,6 @@
       "id": "dots-studio/dots-3-note-preview:free",
       "name": "Dots Studio: Dots3-Note Preview (free)",
       "context_length": 512000,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "id": "openrouter/free",
-      "name": "Free Models Router",
-      "context_length": 200000,
       "pricing": {
         "prompt": "0",
         "completion": "0"
@@ -149,6 +140,60 @@
       }
     },
     {
+      "id": "openrouter/auto",
+      "name": "Auto Router",
+      "context_length": 2000000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "openrouter/auto-beta",
+      "name": "Auto Router (Beta)",
+      "context_length": 2000000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "openrouter/bodybuilder",
+      "name": "Body Builder (beta)",
+      "context_length": 128000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "openrouter/free",
+      "name": "Free Models Router",
+      "context_length": 200000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "openrouter/fusion",
+      "name": "OpenRouter: Fusion",
+      "context_length": 1000000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "openrouter/pareto-code",
+      "name": "Pareto Code Router",
+      "context_length": 2000000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
       "id": "poolside/laguna-s-2.1:free",
       "name": "Poolside: Laguna S 2.1 (free)",
       "context_length": 262144,
@@ -167,8 +212,8 @@
       }
     },
     {
-      "id": "thinkingmachines/inkling:free",
-      "name": "Thinking Machines: Inkling (free)",
+      "id": "thinkingmachines/inkling-small:free",
+      "name": "Thinking Machines: Inkling Small (free)",
       "context_length": 1048576,
       "pricing": {
         "prompt": "0",
@@ -176,8 +221,8 @@
       }
     },
     {
-      "id": "thinkingmachines/inkling-small:free",
-      "name": "Thinking Machines: Inkling Small (free)",
+      "id": "thinkingmachines/inkling:free",
+      "name": "Thinking Machines: Inkling (free)",
       "context_length": 1048576,
       "pricing": {
         "prompt": "0",
