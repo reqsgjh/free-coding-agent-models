@@ -2,12 +2,12 @@
 
 Student-focused snapshot of providers that advertise **free** models for coding and agentic frameworks.
 
-**Honest headline (2026-08-30):** almost no hosted API is truly unlimited. Most “free unlimited” claims hide RPM/RPD caps, weekly quotas, or rotating model IDs. The only reliably unlimited path is **local inference** (Ollama, LM Studio, llama.cpp).
+**Honest headline (2026-08-31):** almost no hosted API is truly unlimited. Most “free unlimited” claims hide RPM/RPD caps, weekly quotas, or rotating model IDs. The only reliably unlimited path is **local inference** (Ollama, LM Studio, llama.cpp).
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
 - Live OpenRouter catalog pulled: **396** models
-- Priced at $0 input + $0 output today: **21** models
+- Priced at $0 input + $0 output today: **26** models
 
 ## Verdict for students
 
@@ -22,7 +22,7 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 ### Hosted APIs (free, usually not unlimited)
 
-| Provider | What they say | Practical limit (as of 2026-08-30) | Card? | Coding / agents |
+| Provider | What they say | Practical limit (as of 2026-08-31) | Card? | Coding / agents |
 | --- | --- | --- | --- | --- |
 | [OpenRouter `:free`](https://openrouter.ai/collections/free-models) | Models with $0 pricing | **20 RPM / 50 RPD** account-wide; **1000 RPD** after a one-time $10 credit purchase | No | Yes — Nemotron 3 Ultra, Laguna S 2.1, North Mini Code, Gemma 4, GLM 5.2 |
 | [Google AI Studio / Gemini API](https://aistudio.google.com) | Free of charge on listed Flash models | Per-model RPM/RPD (Flash often ~10–15 RPM, hundreds–1000 RPD). Free-tier prompts may be used to improve products. Pro often paid-only | No | Strong for agents (1M context, tool use) |
@@ -38,7 +38,7 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 | Agent | $0 models named in recent probes | Limit |
 | --- | --- | --- |
-| [OpenCode](https://opencode.ai) | big-pickle, mimo-v2.5, hy3, nemotron-3-ultra, nemotron-3.5-lightning, muse-spark-1.2 | Zen free IDs rotate; BYOK also works |
+| [OpenCode](https://opencode.ai) | big-pickle, mimo-v2.5, ling-3.0-flash-fin, nemotron-3-ultra, nemotron-3.5-lightning, muse-spark-1.2 | Zen free IDs rotate; BYOK also works |
 | [Kilo Code](https://kilo.ai) | nemotron-3-ultra/super, north-mini-code, laguna-s/xs-2.1 (~200 req/hr) | $0 hosted pool, rotating IDs |
 | [Google Antigravity](https://antigravity.google) | gemini + Claude + gpt-oss on free plan | Weekly quota under “unlimited” language |
 | [OpenAI Codex CLI](https://learn.chatgpt.com/docs/codex/cli) | gpt on free ChatGPT | Shared 5-hour + weekly rate limits |
@@ -55,13 +55,12 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-08-31 04:07 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-08-31 14:14 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
 | `cohere/north-mini-code:free` | Cohere: North Mini Code (free) | 256K |
 | `dots-studio/dots-3-note-preview:free` | Dots Studio: Dots3-Note Preview (free) | 512K |
-| `openrouter/free` | Free Models Router | 200K |
 | `google/gemma-4-26b-a4b-it:free` | Google: Gemma 4 26B A4B  (free) | 262K |
 | `google/gemma-4-31b-it:free` | Google: Gemma 4 31B (free) | 262K |
 | `google/lyria-3-clip-preview` | Google: Lyria 3 Clip Preview | 1.0M |
@@ -75,10 +74,16 @@ Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0`
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | NVIDIA: Nemotron 3 Ultra (free) | 1M |
 | `nvidia/nemotron-3.5-content-safety:free` | NVIDIA: Nemotron 3.5 Content Safety (free) | 128K |
 | `nvidia/nemotron-3.5-lightning:free` | NVIDIA: Nemotron 3.5 Lightning (free) | 1M |
+| `openrouter/auto` | Auto Router | 2.0M |
+| `openrouter/auto-beta` | Auto Router (Beta) | 2.0M |
+| `openrouter/bodybuilder` | Body Builder (beta) | 128K |
+| `openrouter/free` | Free Models Router | 200K |
+| `openrouter/fusion` | OpenRouter: Fusion | 1.0M |
+| `openrouter/pareto-code` | Pareto Code Router | 2.0M |
 | `poolside/laguna-s-2.1:free` | Poolside: Laguna S 2.1 (free) | 262K |
 | `poolside/laguna-xs-2.1:free` | Poolside: Laguna XS 2.1 (free) | 262K |
-| `thinkingmachines/inkling:free` | Thinking Machines: Inkling (free) | 1.0M |
 | `thinkingmachines/inkling-small:free` | Thinking Machines: Inkling Small (free) | 1.0M |
+| `thinkingmachines/inkling:free` | Thinking Machines: Inkling (free) | 1.0M |
 | `z-ai/glm-5.2:free` | Z.ai: GLM 5.2 (free) | 256K |
 
 <!-- OPENROUTER_FREE_END -->
