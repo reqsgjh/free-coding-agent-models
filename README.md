@@ -55,12 +55,13 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-08-30 14:04 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-08-31 04:07 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
 | `cohere/north-mini-code:free` | Cohere: North Mini Code (free) | 256K |
 | `dots-studio/dots-3-note-preview:free` | Dots Studio: Dots3-Note Preview (free) | 512K |
+| `openrouter/free` | Free Models Router | 200K |
 | `google/gemma-4-26b-a4b-it:free` | Google: Gemma 4 26B A4B  (free) | 262K |
 | `google/gemma-4-31b-it:free` | Google: Gemma 4 31B (free) | 262K |
 | `google/lyria-3-clip-preview` | Google: Lyria 3 Clip Preview | 1.0M |
@@ -74,11 +75,10 @@ Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0`
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | NVIDIA: Nemotron 3 Ultra (free) | 1M |
 | `nvidia/nemotron-3.5-content-safety:free` | NVIDIA: Nemotron 3.5 Content Safety (free) | 128K |
 | `nvidia/nemotron-3.5-lightning:free` | NVIDIA: Nemotron 3.5 Lightning (free) | 1M |
-| `openrouter/free` | Free Models Router | 200K |
 | `poolside/laguna-s-2.1:free` | Poolside: Laguna S 2.1 (free) | 262K |
 | `poolside/laguna-xs-2.1:free` | Poolside: Laguna XS 2.1 (free) | 262K |
-| `thinkingmachines/inkling-small:free` | Thinking Machines: Inkling Small (free) | 1.0M |
 | `thinkingmachines/inkling:free` | Thinking Machines: Inkling (free) | 1.0M |
+| `thinkingmachines/inkling-small:free` | Thinking Machines: Inkling Small (free) | 1.0M |
 | `z-ai/glm-5.2:free` | Z.ai: GLM 5.2 (free) | 256K |
 
 <!-- OPENROUTER_FREE_END -->
