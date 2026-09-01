@@ -169,7 +169,7 @@
     {
       "id": "thinkingmachines/inkling-small:free",
       "name": "Thinking Machines: Inkling Small (free)",
-      "context_length": 65536,
+      "context_length": 1048576,
       "pricing": {
         "prompt": "0",
         "completion": "0"
