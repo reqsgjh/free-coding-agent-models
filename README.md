@@ -2,11 +2,11 @@
 
 Student-focused snapshot of providers that advertise **free** models for coding and agentic frameworks.
 
-**Honest headline (2026-08-31):** almost no hosted API is truly unlimited. Most “free unlimited” claims hide RPM/RPD caps, weekly quotas, or rotating model IDs. The only reliably unlimited path is **local inference** (Ollama, LM Studio, llama.cpp).
+**Honest headline (2026-09-01):** almost no hosted API is truly unlimited. Most “free unlimited” claims hide RPM/RPD caps, weekly quotas, or rotating model IDs. The only reliably unlimited path is **local inference** (Ollama, LM Studio, llama.cpp).
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
-- Live OpenRouter catalog pulled: **425** models
+- Live OpenRouter catalog pulled: **418** models
 - Priced at $0 input + $0 output today: **21** models
 
 ## Verdict for students
@@ -22,7 +22,7 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 ### Hosted APIs (free, usually not unlimited)
 
-| Provider | What they say | Practical limit (as of 2026-08-31) | Card? | Coding / agents |
+| Provider | What they say | Practical limit (as of 2026-09-01) | Card? | Coding / agents |
 | --- | --- | --- | --- | --- |
 | [OpenRouter `:free`](https://openrouter.ai/collections/free-models) | Models with $0 pricing | **20 RPM / 50 RPD** account-wide; **1000 RPD** after a one-time $10 credit purchase | No | Yes — Nemotron 3 Ultra, Laguna S 2.1, North Mini Code, Gemma 4, GLM 5.2 |
 | [Google AI Studio / Gemini API](https://aistudio.google.com) | Free of charge on listed Flash models | Per-model RPM/RPD (Flash often ~10–15 RPM, hundreds–1000 RPD). Free-tier prompts may be used to improve products. Pro often paid-only | No | Strong for agents (1M context, tool use) |
@@ -55,30 +55,30 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-09-01 04:14 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-09-01 14:28 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
 | `cohere/north-mini-code:free` | Cohere: North Mini Code (free) | 256K |
 | `dots-studio/dots-3-note-preview:free` | Dots Studio: Dots3-Note Preview (free) | 512K |
-| `openrouter/free` | Free Models Router | 200K |
 | `google/gemma-4-26b-a4b-it:free` | Google: Gemma 4 26B A4B  (free) | 262K |
 | `google/gemma-4-31b-it:free` | Google: Gemma 4 31B (free) | 262K |
-| `google/lyria-3-clip-preview` | Google: Lyria 3 Clip Preview | 1.0M |
-| `google/lyria-3-pro-preview` | Google: Lyria 3 Pro Preview | 1.0M |
+| `google/lyria-3-clip-preview` | Google: Lyria 3 Clip Preview | 1M |
+| `google/lyria-3-pro-preview` | Google: Lyria 3 Pro Preview | 1M |
 | `inclusionai/ling-3.0-flash-fin:free` | Ling 3.0 Flash Fin (free) | 262K |
 | `liquid/lfm-2.5-2.6b:free` | LiquidAI: LFM2.5-2.6B (free) | 65K |
 | `minimax/minimax-m2.7:free` | MiniMax: MiniMax M2.7 (free) | 196K |
-| `minimax/minimax-m3:free` | MiniMax: MiniMax M3 (free) | 1.0M |
+| `minimax/minimax-m3:free` | MiniMax: MiniMax M3 (free) | 1M |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | NVIDIA: Nemotron 3 Nano Omni (free) | 256K |
 | `nvidia/nemotron-3-super-120b-a12b:free` | NVIDIA: Nemotron 3 Super (free) | 262K |
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | NVIDIA: Nemotron 3 Ultra (free) | 1M |
 | `nvidia/nemotron-3.5-content-safety:free` | NVIDIA: Nemotron 3.5 Content Safety (free) | 128K |
 | `nvidia/nemotron-3.5-lightning:free` | NVIDIA: Nemotron 3.5 Lightning (free) | 1M |
+| `openrouter/free` | Free Models Router | 200K |
 | `poolside/laguna-s-2.1:free` | Poolside: Laguna S 2.1 (free) | 262K |
 | `poolside/laguna-xs-2.1:free` | Poolside: Laguna XS 2.1 (free) | 262K |
-| `thinkingmachines/inkling:free` | Thinking Machines: Inkling (free) | 1.0M |
-| `thinkingmachines/inkling-small:free` | Thinking Machines: Inkling Small (free) | 1.0M |
+| `thinkingmachines/inkling-small:free` | Thinking Machines: Inkling Small (free) | 1M |
+| `thinkingmachines/inkling:free` | Thinking Machines: Inkling (free) | 1M |
 | `z-ai/glm-5.2:free` | Z.ai: GLM 5.2 (free) | 256K |
 
 <!-- OPENROUTER_FREE_END -->
