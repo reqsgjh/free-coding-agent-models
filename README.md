@@ -2,11 +2,11 @@
 
 Student-focused snapshot of providers that advertise **free** models for coding and agentic frameworks.
 
-**Honest headline (2026-09-01):** almost no hosted API is truly unlimited. Most “free unlimited” claims hide RPM/RPD caps, weekly quotas, or rotating model IDs. The only reliably unlimited path is **local inference** (Ollama, LM Studio, llama.cpp).
+**Honest headline (2026-09-02):** almost no hosted API is truly unlimited. Most “free unlimited” claims hide RPM/RPD caps, weekly quotas, or rotating model IDs. The only reliably unlimited path is **local inference** (Ollama, LM Studio, llama.cpp).
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
-- Live OpenRouter catalog pulled: **420** models
+- Live OpenRouter catalog pulled: **421** models
 - Priced at $0 input + $0 output today: **21** models
 
 ## Verdict for students
@@ -22,16 +22,16 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 ### Hosted APIs (free, usually not unlimited)
 
-| Provider | What they say | Practical limit (as of 2026-09-01) | Card? | Coding / agents |
+| Provider | What they say | Practical limit (as of 2026-09-02) | Card? | Coding / agents |
 | --- | --- | --- | --- | --- |
 | [OpenRouter `:free`](https://openrouter.ai/collections/free-models) | Models with $0 pricing | **20 RPM / 50 RPD** account-wide; **1000 RPD** after a one-time $10 credit purchase | No | Yes — Nemotron 3 Ultra, Laguna S 2.1, North Mini Code, Gemma 4, GLM 5.2 |
 | [Google AI Studio / Gemini API](https://aistudio.google.com) | Free of charge on listed Flash models | Per-model RPM/RPD (Flash often ~10–15 RPM, hundreds–1000 RPD). Free-tier prompts may be used to improve products. Pro often paid-only | No | Strong for agents (1M context, tool use) |
 | [Groq](https://console.groq.com) | Free plan with published rate table | ~30 RPM; RPD often ~1,000 on chat models (higher on small). Catalog churns | No | Fast; gpt-oss, qwen3.x |
-| [GitHub Models](https://github.com/marketplace/models) | Free inference with a GitHub account | Rate-limited by plan (~10–15 RPM, 50–150 RPD). **New customers blocked since Jun 2026** | No | Existing accounts only |
-| [NVIDIA NIM](https://build.nvidia.com) | Free developer endpoints | ~40 RPM trial (no credits system); not for production | No (dev signup) | Nemotron family is agent-oriented |
-| [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | Free daily neuron allotment | **10,000 Neurons/day** (shared, resets 00:00 UTC) | No | Light coding only |
+| [GitHub Models](https://github.com/marketplace/models) | Free inference with a GitHub account | **Fully retired July 30, 2026** — no longer available | N/A | Retired |
+| [NVIDIA NIM](https://build.nvidia.com) | Free developer endpoints | ~40 RPM trial (traffic-dependent); not for production | No (dev signup) | Nemotron family is agent-oriented |
+| [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | Free daily neuron allotment | **10,000 Neurons/day** (shared, resets 00:00 UTC); some heavy models need Paid | No | Light coding only |
 | [Z.ai / GLM](https://z.ai) | Some Flash models free on API | GLM-4.7-Flash / 4.5-Flash free; flagship paid or Coding Plan quotas | No for Flash | GLM Flash usable for code |
-| [Pollinations](https://pollinations.ai) | Often listed as unlimited / no-auth | Legacy anonymous throttled (~1 req/3–5s); newer endpoints need key / pollen | No | Weak for multi-step agents |
+| [Pollinations](https://pollinations.ai) | Often listed as unlimited / no-auth | Legacy anonymous throttled; newer endpoints need key / pollen | No | Weak for multi-step agents |
 | [Mistral La Plateforme](https://console.mistral.ai) | Free mode / monthly allowance | Allowance, not unlimited | No | Codestral when included |
 
 ### Coding agents that include $0 models
@@ -55,7 +55,7 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-09-02 04:16 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-09-02 14:23 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |

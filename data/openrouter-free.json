@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-02T04:16:18.908447+00:00",
+  "fetched_at": "2026-09-02T14:23:41.786265+00:00",
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 420,
+  "total_models": 421,
   "free_models": 21,
   "models": [
     {
@@ -17,15 +17,6 @@
       "id": "dots-studio/dots-3-note-preview:free",
       "name": "Dots Studio: Dots3-Note Preview (free)",
       "context_length": 512000,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "id": "openrouter/free",
-      "name": "Free Models Router",
-      "context_length": 200000,
       "pricing": {
         "prompt": "0",
         "completion": "0"
@@ -143,6 +134,15 @@
       "id": "nvidia/nemotron-3.5-lightning:free",
       "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
       "context_length": 1000000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "openrouter/free",
+      "name": "Free Models Router",
+      "context_length": 200000,
       "pricing": {
         "prompt": "0",
         "completion": "0"
