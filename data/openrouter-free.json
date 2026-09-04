@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-04T04:14:37.926955+00:00",
+  "fetched_at": "2026-09-04T14:13:03.978426+00:00",
   "source": "https://openrouter.ai/api/v1/models",
   "total_models": 427,
   "free_models": 21,
@@ -17,15 +17,6 @@
       "id": "dots-studio/dots-3-note-preview:free",
       "name": "Dots Studio: Dots3-Note Preview (free)",
       "context_length": 512000,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "id": "openrouter/free",
-      "name": "Free Models Router",
-      "context_length": 200000,
       "pricing": {
         "prompt": "0",
         "completion": "0"
@@ -149,6 +140,15 @@
       }
     },
     {
+      "id": "openrouter/free",
+      "name": "Free Models Router",
+      "context_length": 200000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
       "id": "poolside/laguna-s-2.1:free",
       "name": "Poolside: Laguna S 2.1 (free)",
       "context_length": 262144,
@@ -167,8 +167,8 @@
       }
     },
     {
-      "id": "thinkingmachines/inkling:free",
-      "name": "Thinking Machines: Inkling (free)",
+      "id": "thinkingmachines/inkling-small:free",
+      "name": "Thinking Machines: Inkling Small (free)",
       "context_length": 1048576,
       "pricing": {
         "prompt": "0",
@@ -176,8 +176,8 @@
       }
     },
     {
-      "id": "thinkingmachines/inkling-small:free",
-      "name": "Thinking Machines: Inkling Small (free)",
+      "id": "thinkingmachines/inkling:free",
+      "name": "Thinking Machines: Inkling (free)",
       "context_length": 1048576,
       "pricing": {
         "prompt": "0",
