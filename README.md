@@ -6,8 +6,8 @@ Student-focused snapshot of providers that advertise **free** models for coding 
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
-- Live OpenRouter catalog pulled: **427** models
-- Priced at $0 input + $0 output today: **21** models
+- Live OpenRouter catalog pulled: **431** models
+- Priced at $0 input + $0 output today: **22** models
 
 ## Verdict for students
 
@@ -55,30 +55,31 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-09-04 14:13 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-09-05 04:13 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
 | `cohere/north-mini-code:free` | Cohere: North Mini Code (free) | 256K |
 | `dots-studio/dots-3-note-preview:free` | Dots Studio: Dots3-Note Preview (free) | 512K |
+| `openrouter/free` | Free Models Router | 200K |
 | `google/gemma-4-26b-a4b-it:free` | Google: Gemma 4 26B A4B  (free) | 262K |
 | `google/gemma-4-31b-it:free` | Google: Gemma 4 31B (free) | 262K |
 | `google/lyria-3-clip-preview` | Google: Lyria 3 Clip Preview | 1.0M |
 | `google/lyria-3-pro-preview` | Google: Lyria 3 Pro Preview | 1.0M |
-| `inclusionai/ling-3.0-flash-fin:free` | Ling 3.0 Flash Fin (free) | 262K |
+| `inclusionai/ling-3.0-flash-fin:free` | inclusionAI: Ling 3.0 Flash Fin (free) | 262K |
+| `inclusionai/ling-3.0-flash-sante:free` | inclusionAI: Ling 3.0 Flash Sante (free) | 262K |
 | `liquid/lfm-2.5-2.6b:free` | LiquidAI: LFM2.5-2.6B (free) | 65K |
 | `minimax/minimax-m2.7:free` | MiniMax: MiniMax M2.7 (free) | 196K |
 | `minimax/minimax-m3:free` | MiniMax: MiniMax M3 (free) | 1.0M |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | NVIDIA: Nemotron 3 Nano Omni (free) | 256K |
 | `nvidia/nemotron-3-super-120b-a12b:free` | NVIDIA: Nemotron 3 Super (free) | 262K |
-| `nvidia/nemotron-3-ultra-550b-a55b:free` | NVIDIA: Nemotron 3 Ultra (free) | 1.0M |
+| `nvidia/nemotron-3-ultra-550b-a55b:free` | NVIDIA: Nemotron 3 Ultra (free) | 1M |
 | `nvidia/nemotron-3.5-content-safety:free` | NVIDIA: Nemotron 3.5 Content Safety (free) | 128K |
-| `nvidia/nemotron-3.5-lightning:free` | NVIDIA: Nemotron 3.5 Lightning (free) | 1.0M |
-| `openrouter/free` | Free Models Router | 200K |
+| `nvidia/nemotron-3.5-lightning:free` | NVIDIA: Nemotron 3.5 Lightning (free) | 1M |
 | `poolside/laguna-s-2.1:free` | Poolside: Laguna S 2.1 (free) | 262K |
 | `poolside/laguna-xs-2.1:free` | Poolside: Laguna XS 2.1 (free) | 262K |
-| `thinkingmachines/inkling-small:free` | Thinking Machines: Inkling Small (free) | 1.0M |
 | `thinkingmachines/inkling:free` | Thinking Machines: Inkling (free) | 1.0M |
+| `thinkingmachines/inkling-small:free` | Thinking Machines: Inkling Small (free) | 1.0M |
 | `z-ai/glm-5.2:free` | Z.ai: GLM 5.2 (free) | 256K |
 
 <!-- OPENROUTER_FREE_END -->
