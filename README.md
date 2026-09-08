@@ -6,8 +6,8 @@ Student-focused snapshot of providers that advertise **free** models for coding 
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
-- Live OpenRouter catalog pulled: **430** models
-- Priced at $0 input + $0 output today: **21** models
+- Live OpenRouter catalog pulled: **428** models
+- Priced at $0 input + $0 output today: **19** models
 
 ## Verdict for students
 
@@ -55,7 +55,7 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-09-07 04:15 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-09-08 04:15 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
@@ -69,8 +69,6 @@ Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0`
 | `inclusionai/ling-3.0-flash-fin:free` | inclusionAI: Ling 3.0 Flash Fin (free) | 262K |
 | `inclusionai/ling-3.0-flash-sante:free` | inclusionAI: Ling 3.0 Flash Sante (free) | 262K |
 | `liquid/lfm-2.5-2.6b:free` | LiquidAI: LFM2.5-2.6B (free) | 65K |
-| `minimax/minimax-m2.7:free` | MiniMax: MiniMax M2.7 (free) | 196K |
-| `minimax/minimax-m3:free` | MiniMax: MiniMax M3 (free) | 1.0M |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | NVIDIA: Nemotron 3 Nano Omni (free) | 256K |
 | `nvidia/nemotron-3-super-120b-a12b:free` | NVIDIA: Nemotron 3 Super (free) | 262K |
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | NVIDIA: Nemotron 3 Ultra (free) | 1M |
