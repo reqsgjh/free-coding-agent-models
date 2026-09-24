@@ -6,7 +6,7 @@ Student-focused snapshot of providers that advertise **free** models for coding 
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
-- Live OpenRouter catalog pulled: **454** models
+- Live OpenRouter catalog pulled: **458** models
 - Priced at $0 input + $0 output today: **24** models
 
 ## Verdict for students
@@ -55,7 +55,7 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-09-23 09:11 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-09-24 09:09 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
@@ -68,7 +68,6 @@ Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0`
 | `google/lyria-3-pro-preview` | Google: Lyria 3 Pro Preview | 1.0M |
 | `inclusionai/ling-3.0-flash-fin:free` | inclusionAI: Ling 3.0 Flash Fin (free) | 262K |
 | `inclusionai/ling-3.0-flash-sante:free` | inclusionAI: Ling 3.0 Flash Sante (free) | 262K |
-| `inclusionai/ling-3.0-flash-vl:free` | inclusionAI: Ling 3.0 Flash VL (free) | 262K |
 | `liquid/lfm-2.5-2.6b:free` | LiquidAI: LFM2.5-2.6B (free) | 65K |
 | `nex-agi/nex-n2.5-mini:free` | Nex AGI: Nex-N2.5-Mini (free) | 262K |
 | `nex-agi/nex-n2.5-pro:free` | Nex AGI: Nex-N2.5-Pro (free) | 262K |
@@ -80,6 +79,7 @@ Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0`
 | `poolside/laguna-s-2.1:free` | Poolside: Laguna S 2.1 (free) | 262K |
 | `poolside/laguna-xs-2.1:free` | Poolside: Laguna XS 2.1 (free) | 262K |
 | `qwen/qwen3.8-27b:free` | Qwen: Qwen3.8 27B (free) | 262K |
+| `stealth/space-bunny-alpha` | Space Bunny Alpha | 1M |
 | `thinkingmachines/inkling:free` | Thinking Machines: Inkling (free) | 1.0M |
 | `thinkingmachines/inkling-small:free` | Thinking Machines: Inkling Small (free) | 1.0M |
 | `z-ai/glm-5.2:free` | Z.ai: GLM 5.2 (free) | 32K |
