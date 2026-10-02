@@ -6,8 +6,8 @@ Student-focused snapshot of providers that advertise **free** models for coding 
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
-- Live OpenRouter catalog pulled: **462** models
-- Priced at $0 input + $0 output today: **20** models
+- Live OpenRouter catalog pulled: **464** models
+- Priced at $0 input + $0 output today: **21** models
 
 ## Verdict for students
 
@@ -55,10 +55,11 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-10-01 10:49 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-10-02 10:23 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
+| `apodex/apodex-1.1-mini:free` | Apodex: Apodex 1.1 Mini (free) | 262K |
 | `cohere/north-mini-code:free` | Cohere: North Mini Code (free) | 256K |
 | `dots-studio/dots-3-note-preview:free` | Dots Studio: Dots3-Note Preview (free) | 512K |
 | `openrouter/free` | Free Models Router | 200K |
