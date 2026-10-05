@@ -55,7 +55,7 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-10-04 10:28 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-10-05 11:18 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
