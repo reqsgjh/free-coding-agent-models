@@ -6,8 +6,8 @@ Student-focused snapshot of providers that advertise **free** models for coding 
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
-- Live OpenRouter catalog pulled: **466** models
-- Priced at $0 input + $0 output today: **22** models
+- Live OpenRouter catalog pulled: **464** models
+- Priced at $0 input + $0 output today: **20** models
 
 ## Verdict for students
 
@@ -55,7 +55,7 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-10-05 11:18 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-10-06 11:07 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
@@ -77,8 +77,6 @@ Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0`
 | `nvidia/nemotron-3.5-lightning:free` | NVIDIA: Nemotron 3.5 Lightning (free) | 1M |
 | `poolside/laguna-s-2.1:free` | Poolside: Laguna S 2.1 (free) | 262K |
 | `poolside/laguna-xs-2.1:free` | Poolside: Laguna XS 2.1 (free) | 262K |
-| `qwen/qwen3.8-27b:free` | Qwen: Qwen3.8 27B (free) | 262K |
-| `stealth/space-bunny-alpha` | Space Bunny Alpha | 1M |
 | `thinkingmachines/inkling:free` | Thinking Machines: Inkling (free) | 1.0M |
 | `thinkingmachines/inkling-small:free` | Thinking Machines: Inkling Small (free) | 1.0M |
 
