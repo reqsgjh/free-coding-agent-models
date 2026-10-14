@@ -1,18 +1,9 @@
 {
-  "fetched_at": "2026-10-13T11:34:07.797824+00:00",
+  "fetched_at": "2026-10-14T09:23:19.283173+00:00",
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 459,
-  "free_models": 19,
+  "total_models": 462,
+  "free_models": 17,
   "models": [
-    {
-      "id": "apodex/apodex-1.1-mini:free",
-      "name": "Apodex: Apodex 1.1 Mini (free)",
-      "context_length": 262144,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
     {
       "id": "cohere/north-mini-code:free",
       "name": "Cohere: North Mini Code (free)",
@@ -71,15 +62,6 @@
       "id": "google/lyria-3-pro-preview",
       "name": "Google: Lyria 3 Pro Preview",
       "context_length": 1048576,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "id": "inclusionai/ling-3.1-flash",
-      "name": "inclusionAI: Ling 3.1 Flash",
-      "context_length": 262144,
       "pricing": {
         "prompt": "0",
         "completion": "0"

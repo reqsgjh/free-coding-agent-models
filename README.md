@@ -6,8 +6,8 @@ Student-focused snapshot of providers that advertise **free** models for coding 
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
-- Live OpenRouter catalog pulled: **459** models
-- Priced at $0 input + $0 output today: **19** models
+- Live OpenRouter catalog pulled: **462** models
+- Priced at $0 input + $0 output today: **17** models
 
 ## Verdict for students
 
@@ -55,11 +55,10 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-10-13 11:34 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-10-14 09:23 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
-| `apodex/apodex-1.1-mini:free` | Apodex: Apodex 1.1 Mini (free) | 262K |
 | `cohere/north-mini-code:free` | Cohere: North Mini Code (free) | 256K |
 | `dots-studio/dots-3-note-preview:free` | Dots Studio: Dots3-Note Preview (free) | 512K |
 | `openrouter/free` | Free Models Router | 200K |
@@ -67,7 +66,6 @@ Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0`
 | `google/gemma-4-31b-it:free` | Google: Gemma 4 31B (free) | 262K |
 | `google/lyria-3-clip-preview` | Google: Lyria 3 Clip Preview | 1.0M |
 | `google/lyria-3-pro-preview` | Google: Lyria 3 Pro Preview | 1.0M |
-| `inclusionai/ling-3.1-flash` | inclusionAI: Ling 3.1 Flash | 262K |
 | `liquid/lfm-2.5-2.6b:free` | LiquidAI: LFM2.5-2.6B (free) | 65K |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | NVIDIA: Nemotron 3 Nano Omni (free) | 256K |
 | `nvidia/nemotron-3-super-120b-a12b:free` | NVIDIA: Nemotron 3 Super (free) | 262K |
