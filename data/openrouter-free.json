@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-15T09:01:34.971528+00:00",
+  "fetched_at": "2026-10-16T08:53:49.740306+00:00",
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 462,
-  "free_models": 17,
+  "total_models": 465,
+  "free_models": 18,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -115,6 +115,15 @@
     {
       "id": "nvidia/nemotron-3.5-lightning:free",
       "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+      "context_length": 1000000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "nvidia/nemotron-3.5-super-vl:free",
+      "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
       "context_length": 1000000,
       "pricing": {
         "prompt": "0",
