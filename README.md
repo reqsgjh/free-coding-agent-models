@@ -6,8 +6,8 @@ Student-focused snapshot of providers that advertise **free** models for coding 
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
-- Live OpenRouter catalog pulled: **465** models
-- Priced at $0 input + $0 output today: **18** models
+- Live OpenRouter catalog pulled: **469** models
+- Priced at $0 input + $0 output today: **19** models
 
 ## Verdict for students
 
@@ -55,7 +55,7 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-10-16 08:53 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-10-17 08:24 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
@@ -77,6 +77,7 @@ Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0`
 | `poolside/laguna-xs-2.1:free` | Poolside: Laguna XS 2.1 (free) | 262K |
 | `thinkingmachines/inkling:free` | Thinking Machines: Inkling (free) | 1.0M |
 | `thinkingmachines/inkling-small:free` | Thinking Machines: Inkling Small (free) | 1.0M |
+| `xingchen-agi/xing4.0-29b-a4b:free` | XingChen: Xing4.0 29B A4B (free) | 262K |
 
 <!-- OPENROUTER_FREE_END -->
 
