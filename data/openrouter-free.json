@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-21T09:14:25.349737+00:00",
+  "fetched_at": "2026-10-22T09:17:03.711629+00:00",
   "source": "https://openrouter.ai/api/v1/models",
   "total_models": 468,
-  "free_models": 20,
+  "free_models": 21,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -151,6 +151,15 @@
     {
       "id": "poolside/laguna-xs-2.1:free",
       "name": "Poolside: Laguna XS 2.1 (free)",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "recursive/flint-v1.0:free",
+      "name": "Recursive: Flint (free)",
       "context_length": 262144,
       "pricing": {
         "prompt": "0",
