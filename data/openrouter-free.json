@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-22T09:17:03.711629+00:00",
+  "fetched_at": "2026-10-23T09:13:05.517297+00:00",
   "source": "https://openrouter.ai/api/v1/models",
   "total_models": 468,
-  "free_models": 21,
+  "free_models": 20,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -71,15 +71,6 @@
       "id": "liquid/lfm-2.5-2.6b:free",
       "name": "LiquidAI: LFM2.5-2.6B (free)",
       "context_length": 65536,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "id": "minimax/minimax-m3.1-flash:free",
-      "name": "MiniMax: MiniMax M3.1 Flash (free)",
-      "context_length": 1000000,
       "pricing": {
         "prompt": "0",
         "completion": "0"
