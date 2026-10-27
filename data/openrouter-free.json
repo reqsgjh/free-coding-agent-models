@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-26T09:56:08.510501+00:00",
+  "fetched_at": "2026-10-27T09:41:23.266703+00:00",
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 467,
-  "free_models": 20,
+  "total_models": 463,
+  "free_models": 19,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -80,15 +80,6 @@
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
       "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
       "context_length": 256000,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "id": "nvidia/nemotron-3-super-120b-a12b:free",
-      "name": "NVIDIA: Nemotron 3 Super (free)",
-      "context_length": 262144,
       "pricing": {
         "prompt": "0",
         "completion": "0"
