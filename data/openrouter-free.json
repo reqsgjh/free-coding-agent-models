@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-28T10:26:37.564103+00:00",
+  "fetched_at": "2026-10-29T10:46:22.596664+00:00",
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 464,
+  "total_models": 457,
   "free_models": 19,
   "models": [
     {
