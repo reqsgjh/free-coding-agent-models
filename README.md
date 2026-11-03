@@ -6,7 +6,7 @@ Student-focused snapshot of providers that advertise **free** models for coding 
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
-- Live OpenRouter catalog pulled: **452** models
+- Live OpenRouter catalog pulled: **451** models
 - Priced at $0 input + $0 output today: **17** models
 
 ## Verdict for students
@@ -55,7 +55,7 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-11-02 12:09 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-11-03 11:44 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
