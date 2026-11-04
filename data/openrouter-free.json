@@ -1,13 +1,22 @@
 {
-  "fetched_at": "2026-11-03T11:44:55.333533+00:00",
+  "fetched_at": "2026-11-04T11:57:02.366724+00:00",
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 451,
-  "free_models": 17,
+  "total_models": 455,
+  "free_models": 18,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
       "name": "Cohere: North Mini Code (free)",
       "context_length": 256000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "stealth/crouton-alpha",
+      "name": "Crouton Alpha",
+      "context_length": 1048576,
       "pricing": {
         "prompt": "0",
         "completion": "0"
