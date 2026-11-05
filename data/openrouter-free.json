@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-11-04T11:57:02.366724+00:00",
+  "fetched_at": "2026-11-05T12:00:17.464868+00:00",
   "source": "https://openrouter.ai/api/v1/models",
   "total_models": 455,
-  "free_models": 18,
+  "free_models": 16,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -134,24 +134,6 @@
       "id": "recursive/flint-v1.0:free",
       "name": "Recursive: Flint (free)",
       "context_length": 262144,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "id": "thinkingmachines/inkling:free",
-      "name": "Thinking Machines: Inkling (free)",
-      "context_length": 1048576,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "id": "thinkingmachines/inkling-small:free",
-      "name": "Thinking Machines: Inkling Small (free)",
-      "context_length": 1048576,
       "pricing": {
         "prompt": "0",
         "completion": "0"
