@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-11-05T12:00:17.464868+00:00",
+  "fetched_at": "2026-11-06T11:56:40.560650+00:00",
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 455,
-  "free_models": 16,
+  "total_models": 453,
+  "free_models": 15,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -98,15 +98,6 @@
       "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "name": "NVIDIA: Nemotron 3 Ultra (free)",
       "context_length": 1000000,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "id": "nvidia/nemotron-3.5-content-safety:free",
-      "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
-      "context_length": 128000,
       "pricing": {
         "prompt": "0",
         "completion": "0"

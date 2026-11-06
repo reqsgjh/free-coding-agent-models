@@ -6,8 +6,8 @@ Student-focused snapshot of providers that advertise **free** models for coding 
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
-- Live OpenRouter catalog pulled: **455** models
-- Priced at $0 input + $0 output today: **16** models
+- Live OpenRouter catalog pulled: **453** models
+- Priced at $0 input + $0 output today: **15** models
 
 ## Verdict for students
 
@@ -55,7 +55,7 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-11-05 12:00 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-11-06 11:56 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
@@ -70,7 +70,6 @@ Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0`
 | `liquid/lfm-2.5-2.6b:free` | LiquidAI: LFM2.5-2.6B (free) | 65K |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | NVIDIA: Nemotron 3 Nano Omni (free) | 256K |
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | NVIDIA: Nemotron 3 Ultra (free) | 1M |
-| `nvidia/nemotron-3.5-content-safety:free` | NVIDIA: Nemotron 3.5 Content Safety (free) | 128K |
 | `nvidia/nemotron-3.5-lightning:free` | NVIDIA: Nemotron 3.5 Lightning (free) | 1M |
 | `nvidia/nemotron-3.5-super-vl:free` | NVIDIA: Nemotron 3.5 Super VL (free) | 1M |
 | `recursive/flint-v1.0:free` | Recursive: Flint (free) | 262K |
