@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-11-06T11:56:40.560650+00:00",
+  "fetched_at": "2026-11-07T10:56:28.984485+00:00",
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 453,
-  "free_models": 15,
+  "total_models": 460,
+  "free_models": 16,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -80,6 +80,15 @@
       "id": "liquid/lfm-2.5-2.6b:free",
       "name": "LiquidAI: LFM2.5-2.6B (free)",
       "context_length": 65536,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "liquid/lfm-3-1.7b:free",
+      "name": "LiquidAI: LFM3-1.7B (free)",
+      "context_length": 262144,
       "pricing": {
         "prompt": "0",
         "completion": "0"
