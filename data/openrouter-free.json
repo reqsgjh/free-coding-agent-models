@@ -1,22 +1,13 @@
 {
-  "fetched_at": "2026-11-09T12:40:43.097520+00:00",
+  "fetched_at": "2026-11-10T12:20:04.102666+00:00",
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 461,
+  "total_models": 465,
   "free_models": 16,
   "models": [
     {
       "id": "cohere/north-mini-code:free",
       "name": "Cohere: North Mini Code (free)",
       "context_length": 256000,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "id": "stealth/crouton-alpha",
-      "name": "Crouton Alpha",
-      "context_length": 1048576,
       "pricing": {
         "prompt": "0",
         "completion": "0"
@@ -134,6 +125,15 @@
       "id": "recursive/flint-v1.0:free",
       "name": "Recursive: Flint (free)",
       "context_length": 262144,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "thinkingmachines/inkling-2-small:free",
+      "name": "Thinking Machines: Inkling 2 Small (free)",
+      "context_length": 1048576,
       "pricing": {
         "prompt": "0",
         "completion": "0"
