@@ -6,7 +6,7 @@ Student-focused snapshot of providers that advertise **free** models for coding 
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
-- Live OpenRouter catalog pulled: **465** models
+- Live OpenRouter catalog pulled: **469** models
 - Priced at $0 input + $0 output today: **16** models
 
 ## Verdict for students
@@ -55,10 +55,11 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-11-10 12:20 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-11-11 11:44 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
+| `baidu/ernie-5.5-flash-preview:free` | Baidu: ERNIE-5.5-Flash-Preview (free) | 1.0M |
 | `cohere/north-mini-code:free` | Cohere: North Mini Code (free) | 256K |
 | `dots-studio/dots-3-note-preview:free` | Dots Studio: Dots3-Note Preview (free) | 512K |
 | `openrouter/free` | Free Models Router | 200K |
@@ -74,7 +75,6 @@ Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0`
 | `nvidia/nemotron-3.5-super-vl:free` | NVIDIA: Nemotron 3.5 Super VL (free) | 1M |
 | `recursive/flint-v1.0:free` | Recursive: Flint (free) | 262K |
 | `thinkingmachines/inkling-2-small:free` | Thinking Machines: Inkling 2 Small (free) | 1.0M |
-| `xingchen-agi/xing4.0-29b-a4b:free` | XingChen: Xing4.0 29B A4B (free) | 262K |
 
 <!-- OPENROUTER_FREE_END -->
 

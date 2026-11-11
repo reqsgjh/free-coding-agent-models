@@ -1,9 +1,18 @@
 {
-  "fetched_at": "2026-11-10T12:20:04.102666+00:00",
+  "fetched_at": "2026-11-11T11:44:57.303786+00:00",
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 465,
+  "total_models": 469,
   "free_models": 16,
   "models": [
+    {
+      "id": "baidu/ernie-5.5-flash-preview:free",
+      "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+      "context_length": 1024000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
     {
       "id": "cohere/north-mini-code:free",
       "name": "Cohere: North Mini Code (free)",
@@ -134,15 +143,6 @@
       "id": "thinkingmachines/inkling-2-small:free",
       "name": "Thinking Machines: Inkling 2 Small (free)",
       "context_length": 1048576,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "id": "xingchen-agi/xing4.0-29b-a4b:free",
-      "name": "XingChen: Xing4.0 29B A4B (free)",
-      "context_length": 262144,
       "pricing": {
         "prompt": "0",
         "completion": "0"
