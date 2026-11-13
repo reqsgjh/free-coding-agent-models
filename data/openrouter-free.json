@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-11-12T12:23:36.823690+00:00",
+  "fetched_at": "2026-11-13T11:59:04.635853+00:00",
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 468,
-  "free_models": 16,
+  "total_models": 472,
+  "free_models": 17,
   "models": [
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
@@ -125,6 +125,15 @@
       "id": "nvidia/nemotron-3.5-super-vl:free",
       "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
       "context_length": 1000000,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "id": "particle-ai/particle-1:free",
+      "name": "Particle AI: Particle-1 (free)",
+      "context_length": 1048576,
       "pricing": {
         "prompt": "0",
         "completion": "0"
