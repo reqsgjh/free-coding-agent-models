@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-11-13T11:59:04.635853+00:00",
+  "fetched_at": "2026-11-14T11:17:39.151694+00:00",
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 472,
+  "total_models": 471,
   "free_models": 17,
   "models": [
     {
@@ -77,9 +77,9 @@
       }
     },
     {
-      "id": "liquid/lfm-2.5-2.6b:free",
-      "name": "LiquidAI: LFM2.5-2.6B (free)",
-      "context_length": 65536,
+      "id": "inclusionai/ling-3.2-flash:free",
+      "name": "inclusionAI: Ling 3.2 Flash (free)",
+      "context_length": 1048576,
       "pricing": {
         "prompt": "0",
         "completion": "0"

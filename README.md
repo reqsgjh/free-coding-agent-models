@@ -6,7 +6,7 @@ Student-focused snapshot of providers that advertise **free** models for coding 
 
 This repo is updated daily by GitHub Actions from public provider catalogs (starting with OpenRouter’s unauthenticated `/api/v1/models`).
 
-- Live OpenRouter catalog pulled: **472** models
+- Live OpenRouter catalog pulled: **471** models
 - Priced at $0 input + $0 output today: **17** models
 
 ## Verdict for students
@@ -55,7 +55,7 @@ This repo is updated daily by GitHub Actions from public provider catalogs (star
 
 <!-- OPENROUTER_FREE_START -->
 
-Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-11-13 11:59 UTC.
+Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0` and `pricing.completion == 0` on 2026-11-14 11:17 UTC.
 
 | Model ID | Name | Context |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ Pulled from `GET https://openrouter.ai/api/v1/models` with `pricing.prompt == 0`
 | `google/gemma-4-31b-it:free` | Google: Gemma 4 31B (free) | 262K |
 | `google/lyria-3-clip-preview` | Google: Lyria 3 Clip Preview | 1.0M |
 | `google/lyria-3-pro-preview` | Google: Lyria 3 Pro Preview | 1.0M |
-| `liquid/lfm-2.5-2.6b:free` | LiquidAI: LFM2.5-2.6B (free) | 65K |
+| `inclusionai/ling-3.2-flash:free` | inclusionAI: Ling 3.2 Flash (free) | 1.0M |
 | `liquid/lfm-3-1.7b:free` | LiquidAI: LFM3-1.7B (free) | 262K |
 | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | NVIDIA: Nemotron 3 Nano Omni (free) | 256K |
 | `nvidia/nemotron-3-ultra-550b-a55b:free` | NVIDIA: Nemotron 3 Ultra (free) | 1M |
