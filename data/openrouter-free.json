@@ -1,22 +1,13 @@
 {
-  "fetched_at": "2026-11-20T12:38:53.706451+00:00",
+  "fetched_at": "2026-11-21T12:19:47.782646+00:00",
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 477,
-  "free_models": 15,
+  "total_models": 476,
+  "free_models": 14,
   "models": [
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
       "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
       "context_length": 1024000,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "id": "dots-studio/dots-3-note-preview:free",
-      "name": "Dots Studio: Dots3-Note Preview (free)",
-      "context_length": 512000,
       "pricing": {
         "prompt": "0",
         "completion": "0"
